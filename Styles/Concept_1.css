@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.manu-container{
+    background-color: rgb(41, 40, 40);
+    color: white;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-light{
+    width: 120px;
+}
+.manu{
+    list-style: none;
+    display: flex;
+}
+.item{
+    margin: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.item:hover{
+    color: aqua;
+}
+.photo-1{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh; /*vh means the height take exect size of your screen */
+    align-items: center;
+}
