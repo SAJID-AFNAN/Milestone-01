@@ -34,4 +34,24 @@
     justify-content: space-around;
     height: 100vh; /*vh means the height take exect size of your screen */
     align-items: center;
+    color: white;
+    background-image: url('../images/img/background.png'),
+    linear-gradient(45deg, #090909,#2f2e2e);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.para{
+    margin: 15px 0;
+    font-size: 18px;
+}
+section > div button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
 }
