@@ -49,9 +49,63 @@
     margin: 15px 0;
     font-size: 18px;
 }
-section > div button{
+section div button{
     padding: 10px 20px;
     background-color: red;
     color: white;
     border: none;
+}
+/* Second section start */
+.second-container{
+    display: flex;
+    align-items: center;
+    gap: 170px;
+    /* margin: 30px 90px; */
+    padding: 30px 90px ;
+}
+.photo-2{
+    width: 300px;
+}
+.head{
+    text-align: center;
+    font-size: 50px;
+    margin: 25px 0;
+}
+.paragraph{
+    margin: 14px 0;
+}
+/* Last section */
+.last-div{
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-around;
+}
+.sector{
+    background-image: url('../images/img/black-background.webp'),
+    linear-gradient(45deg,#101010,#fbf7f7);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.same{
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.image{
+    width: 70px;
+}
+.btn{
+    background-color: gray;
+}
+.headsir{
+    margin: 10px 0;
+    font-size: 25px;
+}
+.lastpara{
+    margin-bottom: 10px;
 }
